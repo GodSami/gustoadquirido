@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap%27%27');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap%27');
+
+body{
+    font-family: "Roboto";
+}
+.navbar{
+    background: #F6F6F6;
+}
+.navbar-brand-logo img{
+    width: 150px;
+}
+.navbar-brand img{
+    width: 40px;
+}
+
+@media(min-width: 768px){
+
+    .navbar{
+        height: 250px;
+        font-size: 1.3rem;
+    }
+    .navbar-brand-logo img{
+        width: 250px;
+    }
+    .navbar-brand img{
+        width: 80px;
+    }
+}
+.nav-link{
+    color: black;
+}
+.button1{
+    display: inline-block;
+    padding: 1em 2em;
+    background: #FFE2E2;
+    color: #FF869E;
+    border-radius: 2em;
+    border:none;
+    outline: 2px solid #FFE2E2;
+    outline-offset: 3px;
+}
+.centro{
+    text-align: center;
+}
+
+.Imagen{border-radius:20%;
+    height: 600px;
+    width: 600px;
+}
+footer {
+    background-color: #931A25;
+    color: white;
+    height: 50rem;
+    text-align: center;
+}
+
+@media(min-width: 768px){
+
+    footer{
+        height: 25rem;
+        text-align: left;
+    }
+
+}
+
+.central {
+    text-align:center;
+  }
+.lado {
+    padding: 10px;
+    margin: 80px;
+
+    /* IMPORTANTE */
+    display: inline-block;
+  }
+.izquierda{
+    text-align:left;
+
+}
+.quienes{
+    justify-content: center;
+    text-align: left;
+    position: relative;
+    color: #470D21;
+
+}
+
+.container{
+    width: 100%;
+}
+
+.row {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+.col-md-3 {
+    border-radius: 40px;
+
+  }
+
+.row-content{
+    margin-top: 3rem;
+}
+.text-div{
+    text-align: center;
+    margin-top: 7rem;
+}
+.text-div p{
+
+    font-size: 1.5rem;
+    text-align: center;
+}
+.button-cont{
+    font-size: 24px;
+    font-family: Inter;
+    width: 227px;
+    height: 80px;
+    background: #FFCB8E;
+    color: #931A25;
+    border: none;
+    border-radius: 60px;
+}
