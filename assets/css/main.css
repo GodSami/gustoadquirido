@@ -82,7 +82,8 @@ footer {
     text-align:left;
 
 }
-.quienes{
+
+.quienes1{
     font-size: 28px;
     justify-content: center;
     text-align: center;
@@ -115,12 +116,22 @@ footer {
     text-align: center;
     margin-top: 80px;
 }
-@media(min-width: 768){
+
+.div-img-quienes{
+    margin-top: 3%;
+}
+.quienes{
+    font-size: 15px;
+    position: relative;
+    color: #470D21;
+
+}
+@media(min-width: 768px){
     .quienes{
-        justify-content: center;
-        text-align: left;
+        font-size: 28px;
         position: relative;
         color: #470D21;
+        
     
     }
 }
