@@ -30,6 +30,13 @@ body{
 .nav-link{
     color: black;
 }
+.nav-link:hover{
+
+    color:#931A25;
+}
+.nav-link:active{
+    color:aqua
+}
 .button1{
     display: inline-block;
     padding: 1em 2em;
@@ -40,6 +47,7 @@ body{
     outline: 2px solid #FFE2E2;
     outline-offset: 3px;
 }
+
 .centro{
     text-align: center;
 }
@@ -93,7 +101,7 @@ footer {
 }
 .quienes-titulo{
     font-size: 42px;
-    text-align: center;
+    text-align: justify;
 }
 
 .quienes-titulo-main{
@@ -104,14 +112,11 @@ footer {
 .row-div-titulo{
     text-align: center;
 }
-.ct-f-p{
-    margin-top: 100px;
-}
 
 .p-precios{
 
     font-style: Roboto;
-    color: #F47C7C;
+    color: #931A25;
     font-size:  24px;
     text-align: center;
     margin-top: 80px;
@@ -121,10 +126,16 @@ footer {
     margin-top: 3%;
 }
 .quienes{
-    font-size: 15px;
+    font-size: 20px;
     position: relative;
     color: #470D21;
 
+}
+.imgp{
+    margin-top: 100px;
+}
+.ct-f-p{
+    margin-bottom: 100px;
 }
 @media(min-width: 768px){
     .quienes{
@@ -189,8 +200,9 @@ footer {
         text-align: center;
     }
     .img-cont{
-        width: 750px;
-        height: 750px;
+        width: 650px;
+        height: 650px;
+        margin-bottom: 50px;
     }
     .button-cont{
         font-size: 24px;
@@ -202,7 +214,15 @@ footer {
         border: none;
         border-radius: 60px;
     }
-
+    .button-cont:hover{
+        padding: 20px;
+        background: #931A25;
+        color: white;
+    
+    }
+    .button-cont:active{
+        background: gray;
+    }
 }
 
 .carousel{
@@ -224,7 +244,17 @@ footer {
     color: #F47C7C;
     text-align: center;
     font-size: 30px;
+    border:2px solid gray;
 
+}
+.carousel-item__left a button:hover{
+    color: #FFE2E2;
+    background:#FF869E ;
+    border:2px solid gray;
+}
+.carousel-item__left a button:active{
+    background: gray;
+    border:2px solid gray;
 }
 @media(min-width: 768px){
 
@@ -319,7 +349,16 @@ footer {
     padding: 0 1.5em;
     width: 100%;
   }
-
+    .btn:hover{
+        background:#931A25;
+        color: white;
+        order:2px solid black;
+    }
+    .btn:active{
+        background: white;
+        color: black;
+        border:2px solid black;
+    }
 
   .container-redes-fix{
     position: fixed;
@@ -339,4 +378,20 @@ footer {
         width: 80px;
         height: 80px;
       }
+}
+.a{
+    color:white;
+}
+.a:hover {
+  color:red;
+  }
+.a:active {
+    background: gray;
+    color: white;
+}
+.button-cont{
+    transition: all .3s;
+}
+.button-cont1{
+    transition: all .3s;
 }
